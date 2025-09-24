@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: whitesmoke;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.animated-text {
+    font-size: 3rem;
+    color: red;
+    animation: bounceColor 2s infinite;
+    text-align: center;
+}
+@keyframes bounceColor {
+    0% {
+        transform: translateY(0);
+        color: violet;
+    }
+    50% {
+        transform: translateY(-20px);
+        color: yellow;
+    }
+    100% {
+        transform: translateY(0);
+        color:aqua;
+    }
+}
+
+    
